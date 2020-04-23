@@ -22,6 +22,7 @@ def test_suite():
     test(sum_complex_numbers((1,2), (3,4)) == (4,6))
     test(sum_complex_numbers((1, 2), (1, 1)) == (2, 3))
     test(sum_complex_numbers((1, 2), (-1, 0)) == (0, 2))
+    test(sum_complex_numbers((0,0), (0,0)) == (0,0))
 
 
 test_suite()

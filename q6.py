@@ -27,6 +27,8 @@ def test_suite():
     test(is_prime(11))
     test(not is_prime(35))
     test(not is_prime(19980608))
+    test(is_prime(3))
+    test(is_prime(2))
 
 
 # Run the tests
